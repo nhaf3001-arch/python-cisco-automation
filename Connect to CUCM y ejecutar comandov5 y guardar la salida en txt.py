@@ -123,9 +123,9 @@ def run_ssh_on_multiple_servers(server_list, username, password, commands, outpu
         thread.join()
 
 # Ejemplo de uso con los seis servidores:
-server_ips = ["172.26.16.10", "172.26.16.11", "172.25.191.10"]
-cucm_username = "administrator"
-cucm_password = "whaV0iP5ecureV"
+server_ips = ["10.26.16.10", "10.26.16.11", "10.25.191.10"]
+cucm_username = "admin"
+cucm_password = "admin"
 commands_to_execute = [
     "show hardware",
     "show web-security",
