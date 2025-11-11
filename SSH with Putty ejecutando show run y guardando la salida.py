@@ -35,21 +35,21 @@ def ejecutar_comando_plink_guardar(ip_address, username, password, comando, outp
 
 # Lista de IPs de los routers Cisco
 router_ips = [
-    "10.128.16.1",
-"10.132.83.10",
-"10.133.63.5",
-"10.132.71.10",
-"10.112.20.1",
-"10.132.98.5",
-"10.132.62.10",
-"10.132.31.10",
-"10.132.94.10",
-"10.132.95.10",
+    "10.10.16.1",
+"10.10.83.10",
+"10.10.63.5",
+"10.10.71.10",
+"10.10.20.1",
+"10.10.98.5",
+"10.10.62.10",
+"10.10.31.10",
+"10.10.94.10",
+"10.10.95.10",
 ]
 
 # Credenciales SSH
-ssh_username = "telecom"
-ssh_password = "ciSc0.323h"
+ssh_username = "admin"
+ssh_password = "admin"
 
 # Comando a ejecutar
 comando_a_ejecutar = "show run"
