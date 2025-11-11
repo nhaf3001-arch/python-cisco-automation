@@ -7,15 +7,15 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 # --- Configuración de Unity Connection ---
-CUC_IP = "69.168.17.32" # Reemplaza con la IP/Hostname de tu CUC
-CUC_USERNAME = "partneradmin" # Reemplaza con tu usuario administrador de CUC
-CUC_PASSWORD = "pG9{y0#GC!C3_K" # Reemplaza con tu contraseña de administrador de CUC
+CUC_IP = "10.10.10.1" # Reemplaza con la IP/Hostname de tu CUC
+CUC_USERNAME = "admin" # Reemplaza con tu usuario administrador de CUC
+CUC_PASSWORD = "admin" # Reemplaza con tu contraseña de administrador de CUC
 
 # --- Lista de alias y sus nuevas extensiones MWI ---
 # ¡IMPORTANTE! Reemplaza estos valores con tus alias reales y las nuevas extensiones MWI deseadas.
 alias_new_mwi_extensions = {
-    "dapollard@ua.edu": "252584251",
-    "aabernat@ua.edu": "252585997",
+    "user1d@test.com": "252584251",
+    "user2@test.com": "252585997",
     # Ejemplo adicional si quieres cambiar la que ya usas
     # Agrega más alias y sus nuevas extensiones aquí
     # "otro_alias@dominio.com": "nueva_extension",
